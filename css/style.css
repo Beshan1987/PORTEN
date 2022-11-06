@@ -1,0 +1,649 @@
+/* pt-sans-regular - latin */
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/pt-sans-v17-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/pt-sans-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/pt-sans-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/pt-sans-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/pt-sans-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/pt-sans-v17-latin-regular.svg#PTSans') format('svg'); /* Legacy iOS */
+  }
+  /*making border-box for all elements html*/
+/*
+font-family: 'Post No Bills Jaffna', sans-serif;
+font-family: 'Post No Bills Jaffna Light', sans-serif;
+font-family: 'Post No Bills Jaffna Medium', sans-serif;
+font-family: 'Post No Bills Jaffna SemiBold', sans-serif;
+font-family: 'Post No Bills Jaffna ExtraBold', sans-serif;
+*/
+/* playfair-display-regular - latin */
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/playfair-display-v30-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/playfair-display-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/playfair-display-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/playfair-display-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/playfair-display-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/playfair-display-v30-latin-regular.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
+  }
+
+  html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.header__Line-first {
+    position: absolute;
+    width: 1920px;
+    height: 44px;
+    background: #000000;
+}
+.header__line-first__contacts {
+    position: absolute;
+    width: 355px;
+    height: 16px;
+    left: 436px;
+    font-size: 12px;
+    top: 14px;
+      
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* identical to box height */
+        
+    /* gray */
+    color: #969696;
+}
+
+.header__Line-first__Logo-in {
+position: absolute;
+width: 14px;
+height: 14px;
+left: 1384px;
+top: 15px;
+}
+
+.header__Line-first__registration {
+position: absolute;
+width: 107px;
+height: 16px;
+left: 1408px;
+top: 14px;
+border: none;
+
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+text-align: right;
+
+/* gray */
+color: #969696;
+}
+
+.header__Line-first__registration:hover {
+    opacity: 0.8;
+}
+
+.icon-phone {
+position: absolute;
+left: 406.33px;
+top: 15.33px;
+bottom: 15.33px;
+}
+
+.header__Line-second {
+    position: absolute;
+    width: 1920px;
+    height: 80px;
+    left: 0px;
+    top: 44px;
+    background: #0F0F0F;
+}
+
+.header__Line-second__BrandName {
+position: absolute;
+width: 104px;
+height: 15px;
+left: 405px;
+top: 16px;
+
+font-family: 'Post No Bills Jaffna SemiBold', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+
+color: #FFFFFF;
+}
+
+.header__Line-second__ButtonLike {
+position: absolute;
+width: 136px;
+height: 80px;
+left: 978px;
+background:#0F0F0F;
+border: none;
+}
+.header__Line-second__ButtonTextLike {
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.header__Line-second__ButtonLike:hover {
+    background-color: #1F1F1F;
+}
+.header__Line-second__ButtonLike:active {
+    opacity: 0.8;
+}
+
+.header__Line-second__ButtonAccount {
+    position: absolute;
+width: 150px;
+height: 80px;
+left: 1114px;
+background:#0F0F0F;
+border: none;
+}
+.header__Line-second__ButtonTextAccount {
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+
+/* gray */
+
+color:#969696;;
+}
+.header__Line-second__ButtonAccount:hover {
+    background-color: #1F1F1F;
+}
+.header__Line-second__ButtonAccount:active {
+    opacity: 0.8;
+}
+.header__Line-second__ButtonSettings {
+    position: absolute;
+    width: 130px;
+    height: 80px;
+    left: 1270px;
+    background:#0F0F0F;
+    border: none;
+}
+.header__Line-second__ButtonTextSettings {
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+
+/* gray */
+
+color: #969696;
+}
+.header__Line-second__ButtonSettings:hover {
+    background-color: #1F1F1F;
+}
+.header__Line-second__ButtonSettings:active {
+    opacity: 0.8;
+}
+
+.Cart {
+    position: absolute;
+width: 22px;
+height: 22px;
+left: 1431px;
+bottom: 29px;
+
+}
+.Main-Search {
+    position: absolute;
+width: 22px;
+height: 22px;
+left: 1493px;
+top: 29px;
+}
+
+.main-first {
+    position: absolute;
+    width: 1920px;
+    height: 810px;
+    left: 0px;
+    top: 124px;
+    
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(./img/Main-First.jpg);
+}
+
+.main-first__Main-Logo {
+    position: absolute;
+width: 320px;
+height: 320px;
+left: 800px;
+top: 160px;
+}
+
+.main-first__main-description {
+    position: absolute;
+width: 730px;
+height: 96px;
+left: 595px;
+top: 560px;
+
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.main-second__wrapper {
+    position: absolute;
+width: 1040px;
+height: 730px;
+left: 0px;
+top: 934px;
+
+background: #000000;
+}
+
+.main-second__seasonsTXT {
+    position: absolute;
+font-family: 'Playfair Display';
+font-size: 36px;
+line-height: 42px;
+left:400px;
+text-transform: uppercase;
+top: 93px;
+text-decoration: none;
+
+/* white */
+
+color: #FFFFFF;
+
+}
+
+.main-second__line {
+position: absolute;
+width: 120px;
+height: 0px;
+left: 460px;
+top: 182px;
+
+/* white */
+
+border: 1px solid #FFFFFF;
+}
+
+.main-second__wrapper__Imgleft {
+    position:absolute;
+width: 260px;
+height: 310px;
+left: 80px;
+top: 232px;
+
+background: #191B1C;
+}
+
+.main-second__WatchLeft {
+    position: absolute;
+width: 215px;
+height: 214px;
+left: 23px;
+top: 55px;
+}
+
+.main-second__descriptionWatch-left {
+    position: absolute;
+width: 140px;
+height: 24px;
+left: 80px;
+top: 582px;
+
+font-family: 'Playfair Display';
+font-size: 18px;
+line-height: 21px;
+text-decoration: none;
+
+/* white */
+
+color: #FFFFFF;
+
+}
+
+.main-second__descriptionWatch-left:hover {
+    opacity: 0.8;
+}
+
+.main-second__price-watchLeft {
+    position: absolute;
+width: 92px;
+height: 21px;
+left: 80px;
+top: 616px;
+
+font-family: 'Playfair Display';
+font-size: 16px;
+line-height: 19px;
+
+/* light-gray */
+
+color: #D0D0D0;
+}
+
+.main-second__wrapper__ImgCenter {
+    position:absolute;
+width: 260px;
+height: 310px;
+left: 390px;
+top: 232px;
+
+background: #191B1C;
+}
+
+.main-second__WatchCenter {
+    position: absolute;
+width: 215px;
+height: 214px;
+left: 23px;
+top: 55px;
+}
+
+.main-second__descriptionWatch-Center {
+    position: absolute;
+width: 140px;
+height: 24px;
+left: 390px;
+top: 582px;
+text-decoration: none;
+
+font-family: 'Playfair Display';
+font-size: 18px;
+line-height: 21px;
+
+/* white */
+
+color: #FFFFFF;
+
+} 
+
+.main-second__descriptionWatch-Center:hover {
+    opacity: 0.8;
+}
+
+.main-second__price-watchCenter {
+    position: absolute;
+width: 92px;
+height: 21px;
+left: 390px;
+top: 616px;
+
+font-family: 'Playfair Display';
+font-size: 16px;
+line-height: 19px;
+
+/* light-gray */
+
+color: #D0D0D0;
+}
+
+.main-second__wrapper__ImgRight {
+    position:absolute;
+width: 260px;
+height: 310px;
+left: 700px;
+top: 232px;
+
+background: #191B1C;
+}
+
+.main-second__WatchRight {
+    position: absolute;
+width: 215px;
+height: 214px;
+left: 23px;
+top: 55px;
+}
+
+.main-second__descriptionWatch-Right {
+    position: absolute;
+width: 140px;
+height: 24px;
+left: 700px;
+top: 582px;
+text-decoration: none;
+
+font-family: 'Playfair Display';
+font-size: 18px;
+line-height: 21px;
+
+/* white */
+
+color: #FFFFFF;
+
+}
+.main-second__descriptionWatch-Right:hover {
+    opacity: 0.8;
+}
+
+.main-second__price-watchRight {
+    position: absolute;
+width: 92px;
+height: 21px;
+left: 700px;
+top: 616px;
+
+font-family: 'Playfair Display';
+font-size: 16px;
+line-height: 19px;
+
+/* light-gray */
+
+color: #D0D0D0;
+}
+
+.main-second__right__wrapper {
+    position: absolute;
+width: 880px;
+height: 730px;
+left: 1040px;
+top: 934px;
+
+background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(./img/Main-second-right.png);
+}
+
+.main-second__right__wrapper__newcollectionTXT {
+position: absolute;
+font-family: 'Playfair Display';
+font-size: 36px;
+line-height: 42px;
+left:252px;
+text-transform: uppercase;
+top: 484px;
+text-decoration: none;
+
+/* white */
+
+color: #FFFFFF;
+
+}
+
+.main-second__right__Line {
+    position: absolute;
+    width: 120px;
+    height: 0px;
+    left: 381px;
+    top: 553px;
+    
+    /* white */
+    
+    border: 1px solid #FFFFFF;
+}
+
+.main-second__right__button {
+position: absolute;
+width: 138px;
+height: 47px;
+left: 371px;
+top: 583px;
+background: none;
+cursor: pointer;
+/* white */
+
+border: 1px solid #FFFFFF;
+}
+
+.main-second__right__button:active {
+    opacity: 0.8;
+}
+
+.main-second__right__buttonTXT {
+width: 82px;
+height: 23px;
+
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+padding-left: 21px;
+
+text-transform: uppercase;
+
+/* white */
+
+color: #FFFFFF;
+
+}
+
+.main-third-left__wrapper {
+    position: absolute;
+width: 880px;
+height: 600px;
+left: 0px;
+top: 1664px;
+
+background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5));
+}
+
+.main-third-right__wrapper {
+    
+position: absolute;
+width: 1040px;
+height: 600px;
+left: 880px;
+top: 1664px;
+
+background: #000000;
+}
+
+.main-third-right__CollectionTXT {
+    position: absolute;
+    width: 376px;
+    height: 39px;
+    left: 332px;
+    top: 100px;
+    
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* white */
+    
+    color: #FFFFFF;
+    
+}
+
+.main-third-right__lineIMG {
+    position: absolute;
+width: 120px;
+height: 0px;
+left: 460px;
+top: 179px;
+
+/* white */
+
+border: 1px solid #FFFFFF;
+}
+
+.main-third-right__mainTXT {
+    position: absolute;
+width: 471px;
+height: 173px;
+left: 285px;
+top: 219px;
+
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+text-align: center;
+
+/* white */
+
+color: #FFFFFF;
+}
+
+.main-third-right__Button {
+    position: absolute;
+width: 320px;
+height: 47px;
+left: 365px;
+top: 453px;
+background: none;
+cursor: pointer;
+/* white */
+
+border: 1px solid #FFFFFF;
+}
+
+.main-third-right__Button:active {
+    opacity: 0.8;
+}
+
+.main-third-right__ButtonTXT {
+width: 280px;
+height: 23px;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+padding-right: 0px;
+    
+
+/* white */
+
+color: #FFFFFF;
+}
